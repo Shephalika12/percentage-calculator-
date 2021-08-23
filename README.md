@@ -1,2 +1,2 @@
-# percentage-calculator-
-using java
+# java first project
+ percentage-calculator-
