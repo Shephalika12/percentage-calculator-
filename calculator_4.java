@@ -3,21 +3,17 @@ import java.util.Scanner;
 public class calculator_4 {
     public static void main(String[] args) {
         System.out.println("Taking input from user ::");
-        Scanner maths = new Scanner(System.in);
+        Scanner cs = new Scanner(System.in);
         System.out.println("Enter Maths Marks ::");
-        float a = maths.nextFloat();
-        Scanner english = new Scanner(System.in);
+        float a = cs.nextFloat();
         System.out.println("Enter English Marks ::");
-        float b = english.nextFloat();
-        Scanner science = new Scanner(System.in);
+        float b = cs.nextFloat();
         System.out.println("Enter Science Marks ::");
-        float c = science.nextFloat();
-        Scanner social = new Scanner(System.in);
+        float c = cs.nextFloat();
         System.out.println("Enter Social Science Marks ::");
-        float d = social.nextFloat();
-        Scanner computer = new Scanner(System.in);
-        System.out.println("Enter Computer Marks ::");
-        float e = computer.nextFloat();
+        float d = cs.nextFloat();
+       System.out.println("Enter Computer Marks ::");
+        float e = cs.nextFloat();
         float sum = a + b + c + d + e ;
         System.out.println("The Total Marks :: ");
         System.out.println(sum);
